@@ -198,7 +198,7 @@
 
 
     init();
-    Object.freeze();
+    Object.freeze(self);
     return self;
   };
   return Rellax;
